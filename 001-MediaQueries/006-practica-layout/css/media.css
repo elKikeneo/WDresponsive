@@ -1,0 +1,23 @@
+
+@media (max-width:850px){
+    
+    header nav li, header nav, main > section, main > aside{
+        width: 100%;
+    }
+    header .main{
+        line-height: inherit;
+    }
+    header nav li a{
+        margin-top: 5px;
+        width: 100%;
+        display: block;
+    }
+    
+    main > aside input{
+        position: absolute;
+        top: 49px;
+        right: 10%;
+        width: 40%;
+    }
+    
+}

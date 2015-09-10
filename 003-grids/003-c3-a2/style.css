@@ -1,0 +1,86 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+    background: #ededed;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*RETÍCULA
+======================*/
+
+main{
+    overflow: hidden;
+    padding: 1%;
+}
+.bloque{
+    width: 31.3%;
+    float: left;
+    margin: 0 1%;
+}
+.row{
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+.row:hover{
+    box-shadow: 0 0 10px rgba(255, 0, 0,.8);
+    cursor: pointer;
+}
+.row:hover .flecha{
+    left: calc(50% - 10px);
+}
+.col{
+    width: 50%;
+    float: left;
+}
+.height{
+    height: 200px;
+}
+.height2{
+   height: 410px;
+}
+.height2 img{
+    height: 100%;
+}
+
+/*CONTENIDO
+======================*/
+.texto{
+    padding: 10% 5%;
+}
+.texto h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+.texto p{
+    font-size: .8em;
+    color: #777;
+}
+.foto img{
+    width: 100%;
+    
+}
+.flecha{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    top: 20%;
+    left: calc(50% - 25px);
+    -webkit-transform: rotateZ(45deg);
+    -webkit-transition: all .2s;
+}

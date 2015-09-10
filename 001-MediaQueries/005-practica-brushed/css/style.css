@@ -1,0 +1,223 @@
+/*----------------------------GLOBAL-----------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font: 1em/1.5 "Titillium Web",sans-serif;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+span{
+    color: #e14607;
+}
+/*----------------------------HEADER-----------------------------------------*/
+header{
+    position: fixed;
+    width: 100%;
+    background: #26292e;
+    color: #fff;
+    line-height: 32px;
+    padding: 15px 20px;
+    z-index: 1;
+}
+header h1{
+    float: left;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+header nav{
+    float: right;
+}
+header nav li{
+    float: left;
+    padding-left: 50px;
+}
+
+/*----------------------------PORTADA-----------------------------------------*/
+
+.portada{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fondo.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.portada h1{
+    background: rgba(0,0,0,.4);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 600;    
+}
+.herramientas{
+    position: absolute;
+    bottom: 0;
+    background: #26292a;
+    width: 100%;
+    height: 50px;
+}
+.herramientas .btn_down{
+    background: url(../img/row.png) #26292e no-repeat center;
+    width: 60px;
+    height: 100%;
+    float: right;
+    background-size: 20px;
+}
+.herramientas .btn_down:hover{
+    background: url(../img/row.png) #e14607 no-repeat center;    
+    background-size: 20px;   
+}
+
+/*----------------------------CONTENT---------------------------------------*/
+
+.fondo_claro{background: #2f3238}
+.fondo_oscuro{background: #26292e}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.content h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+}
+.content h3{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 60px;
+    color: #999;
+}
+.content a{
+    color: #e14607;
+    -webkit-transition: all .3s;
+}
+.content a:hover{
+    color: #fff;
+}
+
+/*----------------------------OUR WORKS---------------------------------------*/
+
+.menu_izq{
+    float: left;
+    width: 25%;
+}
+.menu_izq h4{
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.menu_izq li{
+    padding: 15px 0;
+}
+.menu_izq li a{
+    color: #999;
+}
+.gallery{
+    float: right;
+    width: 75%;
+}
+.gallery_view{
+    float: left;
+    width: 33.3%;
+    padding: 0 0 25px 25px;
+}
+.gallery_view img{
+    width: 100%;
+}
+
+/*----------------------------ABOUT US---------------------------------------*/
+
+.three_columns{
+    float: left;
+    width: 32%;
+}
+.three_columns h4{
+    font-weight: 200;
+    font-size: 1.3em;
+    margin: 15px 0;
+}
+.three_columns p{
+    line-height: 35px;
+    color: #999;
+    font-weight: 300;
+}
+.three_columns img{
+    width: 100%;    
+}
+.three_columns:nth-child(4){
+    margin: 0 2%;
+}
+
+/*Social Media*/
+
+.social_menu li{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    background-size: 20px;
+}
+.twitter{
+    background: url(../img/iconos/icon_25838.png) no-repeat center;        
+}
+.facebook{
+    background: url(../img/iconos/icon_26909.png) no-repeat center;    
+}
+.google{
+    background: url(../img/iconos/icon_38318.png) no-repeat center;    
+}
+
+/*----------------------------CONTACT-----------------------------------------*/
+
+.formulario{
+    float: left;
+    width: 75%;
+}
+.formulario input:not([type="submit"]), .formulario textarea{
+    background: #26292e;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    margin-bottom: 1px;
+}
+::-webkit-input-placeholder{color: #999}
+:-moz-placeholder{color:#999}
+:-ms-placeholder{color: #999}
+.formulario input[type="submit"]{
+    width: 20%;
+    padding: 15px;
+    background: #999;
+    color: #26292e;
+    margin-top: 20px;
+    border: 0;
+}
+.menu_drch{
+    float: right;
+    width: 25%;
+    padding-left: 30px;
+}
+.menu_drch h3{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.menu_drch address{
+    font-size: .8em;
+    color: #999;
+    margin-top: 20px;
+}

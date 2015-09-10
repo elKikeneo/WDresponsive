@@ -1,0 +1,34 @@
+@media (max-width:920px){
+    .foto{
+	height: 100%;
+    }
+    
+    .foto img{
+	width: auto;
+	height: 100%;
+    }
+}
+@media (max-width:800px){
+    .bloque{
+	width: 48%;
+    }        
+    .foto img{
+	width: 100%;
+	height: auto;
+    }
+}
+@media (max-width:600px){        
+    .foto img{
+	width: auto;
+	height: 100%;
+    }
+}
+@media (max-width:530px){
+    .bloque{
+	width: 98%;
+    }
+    .foto img{
+	width: 100%;
+	height: auto;
+    }
+}

@@ -1,0 +1,35 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar-link{
+    font-size: 2em;
+}
+/*HEADER
+======================*/
+
+/*CONTENIDO
+======================*/
+[class^="col"]{
+    background: #ededed;
+}
+.glyphicon-plane{
+    font-size: 4em;
+    color:#337ab7;
+}
+
+/*FOOTER
+======================*/

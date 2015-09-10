@@ -1,0 +1,75 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+
+/*FLEX = Funciona ajustando los tamaños y la disposición de los elementos que se encuentran dentro de un contenedor o caja. Flexbox está pensado para componentes de una web o aplicación, a diferencia de Grid Layot, que está pensado para el diseño y estructuración de la web en su conjunto.*/
+
+/*PROPIEDADES FLEX DEL PADRE CONTENEDOR:
+======================*/
+section{
+    display: flex;
+    /*flex-direction = establece el eje principal (row, column, row-reverse, column-reverse)*/
+    flex-direction: row;
+    
+    /*justify-content = define cómo los elementos hijo se disponen a lo largo del eje prinicipal en la línea de curso (flex-start,flex-end, space-between, space-around, center). Esto nos ayuda a definir que ocurre con los espacio libres entre los elementos hijos cuándo no tienen una anchura definida (flex-grow)*/
+    justify-content: space-between;
+    
+    /*align-items = define cómo los elementos hijo se disponen a lo largo del eje secundario en la línea de curso (flex-start,flex-end,center, baseline). Define cómo alineamos los elementos entre ellos en la  vertical*/
+    align-items:flex-end;
+    
+}
+
+/*PROPIEDADES DE LOS HIJOS
+=====================*/
+div{
+    background: tomato;
+    border:1px solid #222;
+    height: 200px;
+    color:#fff;
+    text-align: center;
+    line-height: 200px;
+    font-size: 2em;
+/*      width: 20%;
+        float: left;*/
+
+    /*flex-grow = establece el ancho necesario de cada item para ocupar el espacio de su padre contenedor*/
+    flex-grow:1;
+}
+div:nth-child(even){
+    height: 400px;
+    line-height: 400px;
+}
+
+div:first-child{
+    order:2;
+}
+div:nth-child(2){
+    flex-grow:3;
+    order:1;
+}
+div:nth-child(3){
+    flex-grow:5;
+    order:3;
+}
+div:nth-child(4){
+    order:5;
+}
+div:nth-child(5){
+    order:4;
+}

@@ -1,0 +1,61 @@
+@media (max-width:1250){
+    .content{
+	width: 95%;
+    }
+}
+
+@media (max-width:850px){
+    .gallery_view{
+	width: 50%;
+    }
+    .gallery_view:last-child{
+	width: 100%;
+    }
+}
+
+@media (max-width:750px){
+    header h1, header nav, .menu_izq, .gallery{
+	width: 100%;
+	text-align: center;
+    }
+    header nav li{
+	width: 20%;
+	padding-left: 0;
+	margin-top: 10px;
+    }
+    
+    /*MENÚ GALLERY*/
+    .menu_izq{
+	border-bottom: 1px solid #222;
+	margin-bottom: 25px;
+    }
+    .menu_izq li{
+	float: left;
+	padding: 0;
+	width: 25%;
+	
+    }
+    .gallery_view{
+	padding-left: 0;
+    }
+    .gallery_view:nth-child(even){
+	margin-left: 2%;
+    }
+   
+    /*ABOUT US*/
+    .three_columns{
+	width: 100%;
+    }
+ 
+    
+    
+    
+    
+    /*TERMINAR EL EJERCICIO CON EL DE ELENA*/
+    
+    
+    
+    
+    
+    
+}

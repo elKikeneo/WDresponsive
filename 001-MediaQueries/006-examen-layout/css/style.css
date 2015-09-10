@@ -1,0 +1,120 @@
+/*GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*CABECERA*/
+
+header{
+    width: 100%;
+    line-height: 32px;
+    background: #003366;
+    padding: 15px 10%;
+    overflow: hidden;
+}
+header img{
+    float: left;
+    width: 50px;
+    height: 30px;
+    
+}
+header nav{
+    float: right;
+    
+}
+header li{
+    list-style: none;
+}
+header nav li{
+    float: left;
+    margin-left: 30px;    
+    
+}
+header a{
+    color: #fff;
+}
+
+/*CONTENIDO*/
+
+section{
+    overflow: hidden;
+    width: 100%;
+}
+section li{
+    list-style-position: inside;
+}
+h1{
+    font-size: 4em;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 1.8em;
+    color: #3184B1;
+    line-height: 50px;
+}
+h3{
+    font-size: 1.3em;
+    color: #3184B1;
+    line-height: 32px;
+}
+p{
+    line-height: 22px;
+}
+main{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+section{
+    float: left;
+    width: 58%;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 100%;
+}
+.buscar{
+    float: right;
+    width: 38%;
+    background: #0099cc no-repeat center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px 5px;
+}
+.buscar li{
+    margin-left: 20px;
+    
+}
+.buscar input{
+    border-radius: 10px 10px;
+    font-size: 14px;
+    width: 100%;
+    height: 25px;
+    background: url(../img/icon-search.png) #fff no-repeat left;
+    background-size: 15px;
+}
+footer{
+    clear: both;
+    background: #003366;
+    height: 50px;
+    color: #fff;
+    
+}
+footer p{
+    text-align: center;
+    padding: 15px;
+}

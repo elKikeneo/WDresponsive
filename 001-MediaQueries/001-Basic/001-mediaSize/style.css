@@ -1,0 +1,36 @@
+body{
+    font:1em/1.5 sans-serif;
+}
+main{
+    width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+}
+h1{
+    font-size: 3em;
+}
+
+/*MEDIA QUERIES
+=========================*/
+/*Las mediaQueries dejan que la presentación del contenido se adapte a un rango específico.
+Cuando en una media su condición se cumple, las reglas de estilos son aplicadas.
+
+Sintaxis:
+@media mediaType and (condición)  and (condición)  and...{}
+*/
+
+/*Rango 800-601*/
+@media (max-width:800px) and (min-width:601px){
+    main{width: 85%}
+}
+
+/*Rango 600-0*/
+/*@media (max-width:600px){
+    body{background: tomato}
+}*/
+
+/*Rango 480-0*/
+/*@media (max-width:480px){
+    main{width: 95%;}
+}
+*/

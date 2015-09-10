@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+div{
+    background: url(img/fondo-large.jpg) no-repeat center;
+    height: 100%;
+    background-size: contain;
+}
+
+@media (max-width:500px){
+    background: url(img/fondo-medium.jpg) no-repeat center;
+}
+
+@media (max-width:200px){
+    background: url(img/fondo-small.jpg) no-repeat center;
+}
+
+
+picture img{
+    width: 100%;
+}

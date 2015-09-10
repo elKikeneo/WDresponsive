@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                font:2em/2.5 sans-serif;
+                padding: 10%;
+                text-align: center;
+            }
+             /*Media Queries
+                            ========================
+                            portrait = el alto de la pantalla > ancho (vertical)
+                            landscape = el alto de la pantalla < ancho (horizontal)*/
+           
+             @media (orientation:portrait){
+                 body{background: tomato}
+                 h1:after{
+                     content:" - Portrait";
+                 }
+             }
+             @media (orientation:landscape){
+                 h1:after{
+                     content:" - Landscape";
+                 }
+             }
+            
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Orientation</h1>
+        
+    </body>
+</html>

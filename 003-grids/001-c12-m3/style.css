@@ -1,0 +1,49 @@
+/*GLOBAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/*COLUMNAS -> retícula de 12*/
+
+section{ /*fila*/
+    overflow: hidden;
+    margin-bottom: 1%;
+    width: 80%;
+    margin: 0 auto 1%;
+}
+[class^="col"]{ /*columnas*/
+    margin-right: 3%;
+    background: #ededed;
+    height: 20px;
+    float: left;
+}
+[class^="col"]:last-child{
+    margin-right: 0;
+}
+
+/*Calcular tamaño de columna unitaria:
+1º----> 100%-(nº medianiles*tamaño de medianiles)= espacio a repartir entre columnas
+2º----> espacio a repartir entre columnas/nº columnas=tamaño de la columna unitaria=col1
+*/
+.col1{width: 5.58%}
+.col2{width: 14.16%} /*width.col1+margin.col1+wudth.col1=(5.58%*2)+3%*/
+.col3{width: 22.74%} /*(5.58%*3)+(3%*2)*/
+.col4{width: 31.32%} /*(5.58*4)+(3%*3)*/
+.col5{width: 39.9%}
+.col6{width: 48.48%}
+.col7{width: 57.06%}
+.col8{width: 65.64%}
+.col9{width: 74.22%}
+.col10{width: 82.8%}
+.col11{width: 91.38%}
+.col12{width: 100%}

@@ -1,0 +1,123 @@
+
+@media (max-width:1250px){
+    .content{
+        width: 95%;
+    }
+}
+
+@media (max-width:850px){
+    .gallery_view{
+        width: 50%;
+    }
+    .gallery_view:last-child{
+        width: 100%;
+    }
+}
+
+@media (max-width:750px){
+    
+    /*HEADER*/
+    header h1, header nav, .menu_izq, .gallery{
+        width: 100%;
+        text-align: center;
+    }
+    header nav li{
+        width: 20%;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    
+    /*GALLERY*/
+    .menu_izq{
+        border-bottom: 1px solid #fff;
+        margin-bottom: 25px;
+    }
+    .menu_izq li{
+        float: left;
+        width: 25%;
+    }
+    .gallery_view{
+        width: 49%;
+        padding-left: 0;
+    }
+    .gallery_view:nth-child(even){
+        margin-left: 2%;
+    }
+    
+    /*ABOUT US*/
+    .three_columns{
+        width: 100%;
+    }
+    .three_columns:nth-child(4){
+        margin: 0 0 0 0% ;
+    }
+    .three_columns{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .three_columns img{
+        width: 49%;
+        float: left;
+    }
+    .three_columns > div{
+        float: right;
+        width: 49%;
+        margin: 0 0 0 2% ;
+    }
+    .three_columns h4{
+        margin: 0;
+    }
+    .three_columns p{
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .social_menu{
+        text-align: right;
+    }
+    /*FORMULARIO*/
+    .formulario input[type="submit"]{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width:530px){
+    header{
+        position: absolute;
+        padding: 15px 0;
+    }
+    header nav li{
+        width: 100%;
+        border-top: 1px solid #666;
+    }
+    .gallery_view{
+        width: 100%;
+    }
+    .gallery_view:nth-child(even){
+        margin-left: 0%;
+    }
+    .three_columns img,.three_columns > div{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .three_columns h4{
+        margin: 15px 0;
+    }
+    .social_menu{
+        text-align: center;
+    }
+    
+    /*FORMULARIO*/
+    .formulario, .menu_drch{
+        width: 100%;
+        padding-left: 0;
+    }
+    .formulario input[type="submit"]{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menu_drch, .menu_drch h3{
+        text-align: center;
+    }
+}
